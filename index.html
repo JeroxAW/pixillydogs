@@ -42,26 +42,7 @@
     <a href="https://jeroxaw.github.io/pixillydogs/terms_and_conditions.html">Terms & Conditions</a>
 	</div>
     
-
-	    
-	    <script type="text/javascript">
-		var host = window.location.origin.replace("http", "ws");
-		var socket = new WebSocket("ws://188.226.91.89:3711");
-
-		socket.onopen = function (openEvent) {
-			console.log("Socket connection is open.");
-			sendTextMessage();
-		};
-
-		function sendTextMessage() {
-			if (socket.readyState != WebSocket.OPEN)
-			{
-				console.log("Socket is not open for connection.");
-				return;
-			}
-			socket.send("0;");
-		}
-		</script>
+  
     </body>
     </html>
       
