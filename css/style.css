@@ -1,0 +1,212 @@
+html {
+	font-size: 16px;
+	max-width: 100%;
+}
+
+body {
+	background: #454545;
+	color: #a1a1a1;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	margin: 0;
+	line-height: 1.45;
+	width: inherit;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 50px;
+	margin: 1rem 0;
+}
+
+h3 {
+	font-weight: 800;
+	font-size: 23px;
+}
+
+div[id=menu] {
+	background-color: #242424;
+	width: inherit;
+	height: 3.5rem;
+	text-align: center;
+}
+
+div[id=ru] {
+	width: 3.5rem;
+	height: inherit;
+	float: left;
+}
+
+div[id=en] {
+	background-color: #414141;
+	width: 3.5rem;
+	height: inherit;
+	float: left;
+}
+
+div[id=submenu]{
+	margin-left: auto; 
+	margin-right: auto; 
+	height:inherit; 
+	width:57rem;
+}
+
+div[id=title]{
+	background-color: #343434;
+	width: inherit; 
+	height: 33rem;
+}
+
+div[id=content]{
+	background-color: #3d3c3c;
+	width: 80rem; 
+	height: inherit;
+	float: left;
+}
+
+div[id=title_logo]{
+	display: block;
+	width: 22rem; 
+	height: 22rem;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+div[id=title_pd]{
+	display: block;
+	float: left;
+	width: 48rem; 
+	height: 22rem;
+	box-sizing: border-box;
+	padding: 4rem;
+}
+
+div[id=gp_button]{
+	display: block;
+	width: 15rem; 
+	height: 4.5rem;
+	margin-top: .5rem;
+	float: left;
+}
+
+div[id=title_gh]{
+	display: block;
+	width: 25rem; 
+	height: 5rem;
+	float: left;
+	font-weight: 800;
+	font-size: 30px;
+	text-align: right;
+}
+
+div[id=top_shadow]{
+	display: block;
+	width: inherit; 
+	height: 1.2rem;
+	background-image: url(../images/top_shadow.png);
+	background-repeat: repeat-x;
+}
+
+div[id=middle_shadow]{
+	display: block;
+	width: 100%; 
+	height: 2.5rem;
+	background-image: url(../images/middle_shadow.png);
+	background-repeat: repeat-x;
+}
+
+div[id=title_container]{
+	display: block;
+	width: 70rem;
+	height: 33rem;
+	margin: 4rem auto;
+}
+
+div[id=left_shadow]{
+	float: left;
+	width: 1.68rem; 
+	height: inherit;
+	background-image: url(../images/left_shadow.png);
+}
+
+div[id=right_shadow]{
+	float: left;
+	width: 1.68rem; 
+	height: inherit;
+	background-image: url(../images/right_shadow.png);
+}
+
+div[id=content_container]{
+	margin: -2.5rem auto;
+	width: 83.4rem; 
+	height: 115rem;
+}
+
+div[id=bottom] {
+	width: inherit;
+	height: 8rem;
+	/*background: #0000ff*;*/
+	margin-top: 2.5rem;
+}
+
+div[id=bottom_shadow]{
+	display: block;
+	width: 80rem; 
+	height: 5rem;
+	margin: 0 auto;
+	background-image: url(../images/bottom_shadow.png);
+	background-repeat: no-repeat;
+}
+
+.btn {
+	background-color: #1e1e1e;
+	width: 20rem;
+	height: inherit;
+	transition: background-color .3s linear;
+	float: left;
+}
+
+.lang {
+	background-color: #1e1e1e;
+	width: 3.5rem;
+	height: 100%;
+	-moz-transition: background-color .3s linear;
+	-webkit-transition: background-color .3s linear;
+	transition: background-color .3s linear;
+	float: left;
+}
+
+.content_item {
+	width: 68rem;
+	height: 37rem;
+	margin: 0 auto;
+	/*background: #0000ff;*/
+}
+
+.lang:hover {
+	background-color: #2e2e2e;
+}
+
+.btn:hover {
+	background-color: #2e2e2e;
+}
+
+a, a:visited {
+	color: #a1a1a1;
+	text-decoration: none;
+	line-height: 3.5rem;
+	display: block;
+}
+
+a:hover, a:focus, a:active {
+	color: #a1a1a1;
+	outline: none;
+}
+
+
+
+
+
+
